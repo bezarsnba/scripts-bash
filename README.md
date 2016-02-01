@@ -1,1 +1,2 @@
 # scripts
+# exercicio_algoritmo
