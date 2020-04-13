@@ -74,7 +74,7 @@ Validando
 | zabbix       | config                     | ldap_search_attribute  | utf8               | utf8_bin       |
 | zabbix       | config                     | severity_color_0       | utf8               | utf8_bin       |
 
-
+```
 
 # Autor
 
