@@ -1,1 +1,1 @@
-# exercicio_algoritmo
+# Repositorio de Scripts
