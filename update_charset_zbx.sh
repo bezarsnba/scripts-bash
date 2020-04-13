@@ -1,4 +1,8 @@
 #!/bin/bash
+# Data 13/04
+# Autor: Bezaleel R Silva
+# E-mail: bezarsnba@gmail.com
+# Objetivo: Corrigir erro de latin1 encontrado na base do Zabbix
 
 user=root
 pass=zabbix
@@ -11,7 +15,7 @@ queryValidate='SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, CHARACTER_SET_NAME,
 
 outputRes=$PWD/query_output.sql
 
-echo $querySQL
+
 mysql -p$pass -u$user -h$host --database $databaseName  -e "$querySQL"  > $outputRes
 
 sed -i.bkp '/alter_sql/d' $outputRes
